@@ -65,9 +65,13 @@
   padding: 0;
   line-height: 0;
   padding-right: 28px;
+  color: #fff;
   display: none;
 }
-
+.mobile-menu-open-btn-icon {
+  fill: #fff;
+  color: #fff;
+}
 .mobile-menu-wraper-btn-close {
   border: none;
   color: #fff;
@@ -88,11 +92,16 @@
   width: 100%;
   height: 100%;
   z-index: 9999999999;
-  background-color: #fff;
+  background-color: #024abd;
   transform: translateX(100%);
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  overflow-y: auto; /* Додаємо вертикальний скрол */
+}
+.mobile-menu-wraper.is-open {
+  transform: translateX(0%);
+  transition: 250ms;
 }
 .container-mobile {
   background-color: #024abd;
@@ -145,6 +154,7 @@
 // footer mobile
 .footer-container-mob {
   padding: 16px;
+  color: #024abd;
 }
 
 .footer-terms-list-mob {
