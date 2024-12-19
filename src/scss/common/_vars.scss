@@ -1,4 +1,10 @@
 $_main_color: #242424;
 $_main_bg_color: rgba(255, 255, 255, 0.87);
-$_header_color: #747bff;
-$_header_accent_color: red;
+$_header_color: linear-gradient(
+  #70aeff 3%,
+  #598cf7 9%,
+  #0048bc 92%,
+  #016bec 100%
+);
+$_header_accent_color: #ffc800;
+$_header_active_color: #ffe57c;
