@@ -32,6 +32,10 @@
   margin-bottom: 8px;
 }
 
+.faq-question-container:hover {
+  background: #016bec;
+}
+
 .faq-item:not(:last-child) {
   margin-bottom: 16px;
 }
