@@ -1,0 +1,119 @@
+.faq-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  padding: 60px 16px;
+}
+
+.faq-title {
+  font-family: 'Boogaloo', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.21429;
+  text-align: center;
+  color: #ffc800;
+  text-shadow: 1px 1px 0 #0048bc, -1px -1px 0 #0048bc, 1px -1px 0 #0048bc,
+    -1px 1px 0 #0048bc;
+}
+
+.faq-question-container {
+  position: relative;
+  border-radius: 18px;
+  padding: 16px;
+  background: linear-gradient(
+    180deg,
+    #70aeff 3.26%,
+    #598cf7 9%,
+    #0048bc 91.5%,
+    #016bec 100%
+  );
+  margin-bottom: 8px;
+}
+
+.faq-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.faq-question {
+  position: relative;
+}
+
+.faq-question-text {
+  text-align: start;
+  background: transparent;
+  border: none;
+  font-family: 'Boogaloo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.faq-acc-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  fill: transparent;
+  stroke: #fff;
+}
+
+.faq-answer-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.44444;
+  color: #fff;
+  padding: 16px;
+}
+
+.faq-answer {
+  position: relative;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  border-radius: 18px;
+  /* padding: 16px; */
+  background: #024abd;
+}
+.faq-question-text[aria-expanded='true'] .faq-acc-svg {
+  transform: rotate(180deg);
+}
+
+@media screen and (min-width: 1200px) {
+  .faq-container {
+    justify-content: space-between;
+    gap: 32px;
+    padding: 88px 228px;
+  }
+
+  .faq-title {
+    font-size: 64px;
+  }
+
+  .faq-question-container {
+    margin-bottom: 16px;
+  }
+
+  .faq-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .faq-question-text {
+    font-size: 28px;
+    line-height: 1.21429;
+  }
+
+  .faq-acc-svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    fill: transparent;
+    stroke: #fff;
+  }
+
+  .faq-answer-text {
+    padding: 24px;
+  }
+}
