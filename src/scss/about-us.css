@@ -1,0 +1,49 @@
+.about-us-container {
+  position: relative;
+  padding: 48px 16px 62px 16px;
+  background: linear-gradient(
+    180deg,
+    #70aeff 3.26%,
+    #598cf7 9%,
+    #0048bc 91.5%,
+    #016bec 100%
+  );
+}
+
+.about-us-img-one {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.about-us-title {
+  font-family: 'Boogaloo', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.21429;
+  text-align: center;
+  color: #ffc800;
+  text-shadow: 1px 1px 0 #0048bc, -1px -1px 0 #0048bc, 1px -1px 0 #0048bc,
+    -1px 1px 0 #0048bc;
+  margin-bottom: 24px;
+}
+
+.about-us-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.about-us-img-two {
+  position: absolute;
+  top: 420px;
+  right: 100px;
+}
+
+.about-us-img-three {
+  position: absolute;
+  top: 400px;
+  right: 35px;
+}
