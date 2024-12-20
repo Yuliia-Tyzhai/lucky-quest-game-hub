@@ -47,3 +47,44 @@
   top: 400px;
   right: 35px;
 }
+
+.about-us-img-desk-one {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .about-img-mob-1 {
+    display: none;
+  }
+
+  .about-us-title {
+    font-size: 64px;
+  }
+
+  .about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+    padding: 70px 228px 66px 228px;
+  }
+
+  .about-us-img-desk-one {
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+  }
+
+  .about-us-img-two {
+    width: 104px;
+    height: 105px;
+    top: 250px;
+    right: 40px;
+  }
+
+  .about-us-img-three {
+    display: none;
+  }
+}
