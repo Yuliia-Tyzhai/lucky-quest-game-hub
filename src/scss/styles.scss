@@ -6,8 +6,9 @@
 @import './header.scss';
 @import './faq.css';
 @import './reviews.css';
+@import './gallery.scss';
 // Імпорт стилів Swiper
-@import 'swiper/swiper-bundle.css';
+// @import 'swiper/swiper-bundle.css';
 .container {
   max-width: 320px;
   margin: 0 auto;
