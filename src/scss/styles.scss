@@ -53,6 +53,13 @@ h3 {
   letter-spacing: 0%;
   line-height: 34px;
 }
+h4 {
+  font-family: Boogaloo;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0%;
+  line-height: 30px;
+}
 p {
   font-family: Poppins;
   font-weight: 400;
@@ -62,8 +69,6 @@ p {
 }
 @media screen and (max-width: 1199px) {
   p {
-    font-family: Poppins;
-    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0%;
     line-height: 24px;
