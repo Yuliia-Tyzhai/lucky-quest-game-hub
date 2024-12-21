@@ -20,7 +20,9 @@
     <title>Lucky Quest Game Hub</title>
     
     <script type="module" crossorigin src="/lucky-quest-game-hub/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/lucky-quest-game-hub/assets/styles-46f35754.css">
+    <link rel="modulepreload" crossorigin href="/lucky-quest-game-hub/assets/vendor-7d212bb0.js">
+    <link rel="stylesheet" href="/lucky-quest-game-hub/assets/vendor-fef9b9da.css">
+    <link rel="stylesheet" href="/lucky-quest-game-hub/assets/styles-3caac67e.css">
   </head>
   <body>
     <header class="header">
@@ -37,7 +39,7 @@
     <ul class="nav-list">
       <li><a href="#hero" class="header-nav-link">Home</a></li>
       <li><a href="#gallery" class="header-nav-link">Gallery</a></li>
-      <li><a href="#about" class="header-nav-link">About Us</a></li>
+      <li><a href="#about-us" class="header-nav-link">About Us</a></li>
       <li><a href="#benefits" class="header-nav-link">Benefits</a></li>
       <li><a href="#reviews" class="header-nav-link">Reviews</a></li>
       <li><a href="#faq" class="header-nav-link">FAQ</a></li>
@@ -97,7 +99,7 @@
           </a>
         </li>
         <li>
-          <a href="#about" class="mobile-menu-item"
+          <a href="#about-us" class="mobile-menu-item"
             >About Us
             <svg class="icon-to-right">
               <use href="/lucky-quest-game-hub/assets/sprite-6a376523.svg#icon-Back-button"></use>
@@ -249,8 +251,144 @@
 </section>
 
       <section id="reviews">
-  <div>
+  <div class="reviews-container container">
     <h2>Reviews</h2>
+    <div class="swiper reviews-swiper">
+      <div class="swiper-wrapper reviews-swiper-wrapper">
+        <!-- Перший слайд -->
+        <div class="swiper-slide reviews-swiper-slide">
+          <div class="reviews-card-container">
+            <svg class="reviews-svg-one" width="33" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-one"></use>
+            </svg>
+            <svg class="reviews-svg-two" width="32" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-two"></use>
+            </svg>
+            <svg class="reviews-svg-three" width="31" height="32">
+              <use
+                href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-three"
+              ></use>
+            </svg>
+            <p>
+              "I love how each merge helps bring the mansion to life. Such a
+              rewarding experience!"
+            </p>
+            <p>HomeDesigner</p>
+          </div>
+        </div>
+
+        <!-- Другий слайд -->
+        <div class="swiper-slide reviews-swiper-slide">
+          <div class="reviews-card-container">
+            <svg class="reviews-svg-one" width="33" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-one"></use>
+            </svg>
+            <svg class="reviews-svg-two" width="32" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-two"></use>
+            </svg>
+            <svg class="reviews-svg-three" width="31" height="32">
+              <use
+                href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-three"
+              ></use>
+            </svg>
+            <p>
+              "The puzzles are fun and challenging, and the graphics are simply
+              stunning."
+            </p>
+            <p>PuzzleChampion</p>
+          </div>
+        </div>
+
+        <!-- Третій слайд -->
+        <div class="swiper-slide reviews-swiper-slide">
+          <div class="reviews-card-container">
+            <svg class="reviews-svg-one" width="33" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-one"></use>
+            </svg>
+            <svg class="reviews-svg-two" width="32" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-two"></use>
+            </svg>
+            <svg class="reviews-svg-three" width="31" height="32">
+              <use
+                href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-three"
+              ></use>
+            </svg>
+            <p>
+              "This game is perfect for anyone who loves puzzles and interior
+              design. A must-try!"
+            </p>
+            <p>CreativeCrafter</p>
+          </div>
+        </div>
+
+        <!-- Четвертий слайд -->
+        <div class="swiper-slide reviews-swiper-slide">
+          <div class="reviews-card-container">
+            <svg class="reviews-svg-one" width="33" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-one"></use>
+            </svg>
+            <svg class="reviews-svg-two" width="32" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-two"></use>
+            </svg>
+            <svg class="reviews-svg-three" width="31" height="32">
+              <use
+                href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-three"
+              ></use>
+            </svg>
+            <p>
+              "Merging items and renovating the mansion is so relaxing. Highly
+              addictive!"
+            </p>
+            <p>DailyDecorator</p>
+          </div>
+        </div>
+
+        <!-- П'ятий слайд -->
+        <div class="swiper-slide reviews-swiper-slide">
+          <div class="reviews-card-container">
+            <svg class="reviews-svg-one" width="33" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-one"></use>
+            </svg>
+            <svg class="reviews-svg-two" width="32" height="32">
+              <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-two"></use>
+            </svg>
+            <svg class="reviews-svg-three" width="31" height="32">
+              <use
+                href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-icon-three"
+              ></use>
+            </svg>
+            <p>
+              "The storyline is engaging, and I can't wait to see what the next
+              room looks like!"
+            </p>
+            <p>BlastFan</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Пагінація (крапки) -->
+      <div class="swiper-pagination reviews-swiper-pagination">
+        <div>
+          <svg class="reviews-pagination-dot" width="14" height="14">
+            <use
+              href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-pagination-dot"
+            ></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Стрілки для навігації -->
+      <div class="swiper-button-next">
+        <svg class="reviews-next-btn" width="14" height="26">
+          <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-next-btn"></use>
+        </svg>
+      </div>
+      <div class="swiper-button-prev">
+        <svg class="reviews-back-btn" width="14" height="26">
+          <use href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-reviews-back-btn"></use>
+        </svg>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -266,7 +404,7 @@
               <svg class="faq-acc-svg" width="32" height="32">
                 <use
                   class="icon-arrow-up-down"
-                  href="/lucky-quest-game-hub/assets/faq-8c6b49d1.svg#icon-arrow-up-down"
+                  href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-faq-btn"
                 ></use>
               </svg>
             </button>
@@ -288,7 +426,7 @@
               <svg class="faq-acc-svg" width="32" height="32">
                 <use
                   class="icon-arrow-up-down"
-                  href="/lucky-quest-game-hub/assets/faq-8c6b49d1.svg#icon-arrow-up-down"
+                  href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-faq-btn"
                 ></use>
               </svg>
             </button>
@@ -310,7 +448,7 @@
               <svg class="faq-acc-svg" width="32" height="32">
                 <use
                   class="icon-arrow-up-down"
-                  href="/lucky-quest-game-hub/assets/faq-8c6b49d1.svg#icon-arrow-up-down"
+                  href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-faq-btn"
                 ></use>
               </svg>
             </button>
@@ -332,7 +470,7 @@
               <svg class="faq-acc-svg" width="32" height="32">
                 <use
                   class="icon-arrow-up-down"
-                  href="/lucky-quest-game-hub/assets/faq-8c6b49d1.svg#icon-arrow-up-down"
+                  href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-faq-btn"
                 ></use>
               </svg>
             </button>
@@ -355,7 +493,7 @@
               <svg class="faq-acc-svg" width="32" height="32">
                 <use
                   class="icon-arrow-up-down"
-                  href="/lucky-quest-game-hub/assets/faq-8c6b49d1.svg#icon-arrow-up-down"
+                  href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-faq-btn"
                 ></use>
               </svg>
             </button>
@@ -377,7 +515,7 @@
               <svg class="faq-acc-svg" width="32" height="32">
                 <use
                   class="icon-arrow-up-down"
-                  href="/lucky-quest-game-hub/assets/faq-8c6b49d1.svg#icon-arrow-up-down"
+                  href="/lucky-quest-game-hub/assets/sprite-e33dc7d0.svg#icon-faq-btn"
                 ></use>
               </svg>
             </button>
