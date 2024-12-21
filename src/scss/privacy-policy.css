@@ -62,6 +62,22 @@
   gap: 0px;
 }
 
+.back-to-home-btn:hover {
+  color: #ffc800;
+}
+
+.back-to-home-btn:active {
+  color: #ffe57c;
+}
+
+.back-btn {
+  fill: #ffffff;
+}
+
+.back-btn:hover {
+  fill: #ffc800;
+}
+
 .privacy-header-container {
   display: flex;
   align-items: center;
