@@ -120,4 +120,8 @@
   .faq-answer-text {
     padding: 24px;
   }
+
+  br {
+    display: none;
+  }
 }
