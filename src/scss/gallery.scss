@@ -94,4 +94,12 @@
   .swiper {
     width: 320px;
   }
+  .swiper-pagination-box {
+    display: none;
+  }
+  .swiper-slide img {
+    width: 264px;
+    height: 123px;
+    border-radius: 20px;
+  }
 }
