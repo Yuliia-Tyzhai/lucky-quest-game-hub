@@ -7,6 +7,7 @@
 @import './faq.css';
 @import './reviews.css';
 @import './gallery.scss';
+@import './benefits.scss';
 // Імпорт стилів Swiper
 // @import 'swiper/swiper-bundle.css';
 .container {
@@ -21,5 +22,55 @@
 
   .container {
     max-width: 1200px;
+  }
+}
+h1 {
+  font-family: 'Boogaloo', sans-serif;
+  font-size: 90px;
+  letter-spacing: 0%;
+  line-height: 112px;
+  font-weight: 400;
+  text-align: center;
+  color: $_header_accent_color;
+  text-shadow: 1px 1px 0 #0048bc, -1px -1px 0 #0048bc, 1px -1px 0 #0048bc,
+    -1px 1px 0 #0048bc;
+  margin-bottom: 30px;
+}
+h2 {
+  font-family: 'Boogaloo', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.21429;
+  text-align: center;
+  color: $_header_accent_color;
+  text-shadow: 1px 1px 0 #0048bc, -1px -1px 0 #0048bc, 1px -1px 0 #0048bc,
+    -1px 1px 0 #0048bc;
+}
+h3 {
+  font-family: Boogaloo;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 0%;
+  line-height: 34px;
+}
+h4 {
+  font-family: Boogaloo;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0%;
+  line-height: 30px;
+}
+p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0%;
+  line-height: 26px;
+}
+@media screen and (max-width: 1199px) {
+  p {
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 24px;
   }
 }
