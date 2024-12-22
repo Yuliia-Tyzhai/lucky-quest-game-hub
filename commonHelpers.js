@@ -51,7 +51,6 @@
       /* Загальні стилі для контейнера слайдера */
       .reviews-swiper-container {
         position: relative;
-        padding-bottom: 50px; /* Місце для пагінації і кнопок */
       }
 
       /* Приховуємо дефолтні пагінацію і стрілки на всіх пристроях */
@@ -64,9 +63,10 @@
       /* Показуємо кастомні пагінацію і стрілки на десктопах (після 1200px) */
       @media (min-width: 1200px) {
         .reviews-swiper-pagination,
-        .swiper-button-next,
-        .swiper-button-prev {
-          display: block !important;
+        .reviews-button-next,
+        .reviews-button-prev {
+          display: flex !important;
+          gap: 4px !important;
         }
       }
 
