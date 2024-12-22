@@ -21,23 +21,23 @@ document.addEventListener('DOMContentLoaded', function () {
         },
       },
 
-      pagination: {
-        el: '.reviews-swiper-pagination',
-        type: 'custom',
-        renderCustom: function (swiper, current, total) {
-          let paginationHTML = '';
-          for (let i = 0; i < total; i++) {
-            paginationHTML += ` 
-              <svg class="reviews-pagination-dot ${
-                i === current - 1 ? 'active' : ''
-              }" width="32" height="32">
-                <use href="./img/reviews/sprite.svg#icon-reviews-pagination-dot"></use>
-              </svg>
-            `;
-          }
-          return paginationHTML;
-        },
-      },
+      //   pagination: {
+      //     el: '.reviews-swiper-pagination',
+      //     type: 'custom',
+      //     renderCustom: function (swiper, current, total) {
+      //       let paginationHTML = '';
+      //       for (let i = 0; i < total; i++) {
+      //         paginationHTML += `
+      //           <svg class="reviews-pagination-dot ${
+      //             i === current - 1 ? 'active' : ''
+      //           }" width="32" height="32">
+      //             <use href="./img/reviews/sprite.svg#icon-reviews-pagination-dot"></use>
+      //           </svg>
+      //         `;
+      //       }
+      //       return paginationHTML;
+      //     },
+      //   },
 
       navigation: {
         nextEl: '.swiper-button-next',
@@ -51,22 +51,22 @@ document.addEventListener('DOMContentLoaded', function () {
     const style = document.createElement('style');
     style.innerHTML = `
       
-      .reviews-swiper-pagination {
-        display: flex;
-        justify-content: center;
-        gap: 4px;
-        margin-top: 24px; /* Відстань 24px під слайдами */
-      }
+    //   .reviews-swiper-pagination {
+    //     display: flex;
+    //     justify-content: center;
+    //     gap: 4px;
+    //     margin-top: 24px; /* Відстань 24px під слайдами */
+    //   }
 
-      .reviews-pagination-dot {
-        cursor: pointer;
-        opacity: 0.7;
-        transition: opacity 0.3s ease;
-      }
+    //   .reviews-pagination-dot {
+    //     cursor: pointer;
+    //     opacity: 0.7;
+    //     transition: opacity 0.3s ease;
+    //   }
 
-      .reviews-pagination-dot.active {
-        opacity: 1;
-      }
+    //   .reviews-pagination-dot.active {
+    //     opacity: 1;
+    //   }
 
       
       .swiper-button-next,
@@ -100,14 +100,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
       
       .swiper-button-next,
-      .swiper-button-prev,
-      .swiper-pagination {
+      .swiper-button-prev {
         display: none !important;
       }
 
       
       @media (min-width: 1200px) {
-        .reviews-swiper-pagination,
+    
         .reviews-button-next,
         .reviews-button-prev {
           display: flex !important;
@@ -117,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       
       @media (max-width: 1199px) {
-        .reviews-swiper-pagination,
+        
         .swiper-button-next,
         .swiper-button-prev {
           display: none !important;

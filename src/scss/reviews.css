@@ -139,8 +139,8 @@
     margin-left: 516px;
   }
 
-  .reviews-next-btn,
-  .reviews-prev-btn {
+  .reviews-next-btn:active:hover,
+  .reviews-prev-btn:active:hover {
     fill: #016bec;
   }
 
