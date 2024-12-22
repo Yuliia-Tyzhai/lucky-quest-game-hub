@@ -14,7 +14,13 @@
   max-width: 320px;
   margin: 0 auto;
 }
-
+body {
+  height: 300vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 h2 {
   font-family: 'Boogaloo', sans-serif;
   font-weight: 400;
