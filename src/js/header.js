@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', event => {
 
   links.forEach(link => {
     link.addEventListener('click', function (event) {
-      event.preventDefault(); // we prevent going through the link
       links.forEach(link => link.classList.remove('active'));
       link.classList.add('active');
     });

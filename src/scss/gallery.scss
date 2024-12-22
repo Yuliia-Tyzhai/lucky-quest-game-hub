@@ -114,7 +114,23 @@
 .swiper-pagination svg {
   width: 14px;
   height: 14px;
-  fill: #000;
+  fill: #70aeff;
+}
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  background: #70aeff;
+  border-radius: 50%;
+  opacity: 1;
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+  background: #016bec;
 }
 @media (max-width: 1220px) {
   .gallery-box {

@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+      bulletClass: 'swiper-pagination-bullet',
+      bulletActiveClass: 'swiper-pagination-bullet-active',
     },
   });
   document.querySelector('.triangle-next').addEventListener('click', () => {
