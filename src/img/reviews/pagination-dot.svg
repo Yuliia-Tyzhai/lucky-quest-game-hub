@@ -1,0 +1,7 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-pagination-dot" viewBox="0 0 32 32">
+<path fill="#016bec" style="fill: var(--color1, #016bec)" d="M16 6.667c1.829-0 3.617 0.537 5.143 1.545s2.723 2.441 3.441 4.123c0.718 1.682 0.926 3.538 0.599 5.337s-1.176 3.463-2.441 4.783-2.889 2.241-4.673 2.647c-1.783 0.405-3.646 0.278-5.358-0.367s-3.196-1.777-4.269-3.258c-1.073-1.481-1.687-3.244-1.767-5.071l-0.009-0.405 0.009-0.405c0.104-2.403 1.132-4.673 2.869-6.336s4.049-2.592 6.454-2.592z"></path>
+</symbol>
+</defs>
+</svg>
