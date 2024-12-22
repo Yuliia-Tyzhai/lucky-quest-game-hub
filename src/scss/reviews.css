@@ -6,8 +6,8 @@
 }
 
 .reviews-swiper-slide {
-  max-width: 260px;
-  height: 274px;
+  /* max-width: 260px; */
+  /* height: 274px; */
   margin-right: 16px;
 }
 
@@ -146,8 +146,7 @@
 
   .reviews-next-btn:active,
   .reviews-prev-btn:active {
-    box-shadow: 0 0 0px 0 #5294ff, 0 0 1px 0 #5294ff, 0 0 3px 0 #5294ff,
-      0 0 6px 0 #5294ff, 0 0 10px 0 #5294ff, 0 0 18px 0 #5294ff;
+    filter: drop-shadow(-1px -2px 6px #5294ff);
   }
 
   .pagination-dots-container {

@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       .swiper-button-next svg,
       .swiper-button-prev svg {
-        width: 24px; /* Виправлено розмір */
+        width: 24px;
         height: 24px;
         fill: black;
       }
