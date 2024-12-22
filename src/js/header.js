@@ -1,7 +1,6 @@
-// we make the color of the link in the active state the corresponding color
+// maked the color of the link in the active state the corresponding color
 document.addEventListener('DOMContentLoaded', event => {
   const links = document.querySelectorAll('.header-nav-link');
-
   links.forEach(link => {
     link.addEventListener('click', function (event) {
       links.forEach(link => link.classList.remove('active'));
@@ -41,6 +40,19 @@ document.addEventListener('DOMContentLoaded', event => {
   menuItems.forEach(function (item) {
     item.addEventListener('click', function () {
       mobileMenu.classList.remove('is-open');
+    });
+  });
+});
+// header fixed
+document.querySelectorAll('.header-nav-link').forEach(anchor => {
+  anchor.addEventListener('click', function (event) {
+    event.preventDefault();
+    const targetId = this.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    window.scrollTo({
+      top: targetElement.offsetTop - 80,
+      behavior: 'smooth',
     });
   });
 });
