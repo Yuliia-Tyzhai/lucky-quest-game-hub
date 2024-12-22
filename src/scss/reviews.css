@@ -63,7 +63,6 @@
 @media (min-width: 1200px) {
   .reviews-container {
     position: relative;
-    height: 550px;
   }
 
   .reviews-card-container {

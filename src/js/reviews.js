@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .reviews-swiper-pagination {
         display: flex;
         justify-content: center;
-        gap: 8px;
+        gap: 4px;
         margin-top: 24px; /* Відстань 24px під слайдами */
       }
 
