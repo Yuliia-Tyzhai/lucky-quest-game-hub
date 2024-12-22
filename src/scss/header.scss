@@ -212,12 +212,15 @@
   }
   .mobile-menu-open-btn {
     display: inline-block;
+    padding-right: 16px;
   }
   .mobile-menu-wraper.is-open {
     display: flex;
     justify-content: space-between;
   }
-
+  .logo {
+    padding-left: 16px;
+  }
   .header-container {
     width: 300px;
   }
