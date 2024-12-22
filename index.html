@@ -22,39 +22,41 @@
     <script type="module" crossorigin src="/lucky-quest-game-hub/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/lucky-quest-game-hub/assets/vendor-7d212bb0.js">
     <link rel="stylesheet" href="/lucky-quest-game-hub/assets/vendor-fef9b9da.css">
-    <link rel="stylesheet" href="/lucky-quest-game-hub/assets/styles-c72dd237.css">
+    <link rel="stylesheet" href="/lucky-quest-game-hub/assets/styles-2f9a32cf.css">
   </head>
   <body>
     <header class="header">
-  <div>
-    <a
-      href="https://play.google.com/store/apps/details?id=mansion.blast"
-      class="logo"
-    >
-      <img src="/lucky-quest-game-hub/assets/logo-e61aec4f.png" alt="logo" class="logo-header" width="44" />
-      <span class="header-name">Mansion Blast</span></a
-    >
+  <div class="header-container">
+    <div>
+      <a
+        href="https://play.google.com/store/apps/details?id=mansion.blast"
+        class="logo"
+      >
+        <img src="/lucky-quest-game-hub/assets/logo-e61aec4f.png" alt="logo" class="logo-header" width="44" />
+        <span class="header-name">Mansion Blast</span></a
+      >
+    </div>
+    <nav class="header-navigation">
+      <ul class="nav-list">
+        <li><a href="#hero" class="header-nav-link">Home</a></li>
+        <li><a href="#gallery" class="header-nav-link">Gallery</a></li>
+        <li><a href="#about-us" class="header-nav-link">About Us</a></li>
+        <li><a href="#benefits" class="header-nav-link">Benefits</a></li>
+        <li><a href="#reviews" class="header-nav-link">Reviews</a></li>
+        <li><a href="#faq" class="header-nav-link">FAQ</a></li>
+      </ul>
+    </nav>
+    <button class="mobile-menu-open-btn" type="button">
+      <svg
+        class="mobile-menu-open-btn-icon"
+        width="24"
+        height="24"
+        aria-label="mobile menu open icon"
+      >
+        <use href="/lucky-quest-game-hub/assets/sprite-66836b32.svg#icon-burger"></use>
+      </svg>
+    </button>
   </div>
-  <nav class="header-navigation">
-    <ul class="nav-list">
-      <li><a href="#hero" class="header-nav-link">Home</a></li>
-      <li><a href="#gallery" class="header-nav-link">Gallery</a></li>
-      <li><a href="#about-us" class="header-nav-link">About Us</a></li>
-      <li><a href="#benefits" class="header-nav-link">Benefits</a></li>
-      <li><a href="#reviews" class="header-nav-link">Reviews</a></li>
-      <li><a href="#faq" class="header-nav-link">FAQ</a></li>
-    </ul>
-  </nav>
-  <button class="mobile-menu-open-btn" type="button">
-    <svg
-      class="mobile-menu-open-btn-icon"
-      width="24"
-      height="24"
-      aria-label="mobile menu open icon"
-    >
-      <use href="/lucky-quest-game-hub/assets/sprite-66836b32.svg#icon-burger"></use>
-    </svg>
-  </button>
 </header>
 <!-- Mobile menu -->
 <div class="mobile-menu-wraper">
@@ -214,9 +216,11 @@
       </div>
       <div class="swiper-pagination-box">
         <div class="triangle triangle-prev">
-          <svg class="" width="24" height="24" aria-label="prev">
-            <use href="/lucky-quest-game-hub/assets/sprite-66836b32.svg#icon-pag-btn-prev"></use>
-          </svg>
+          <button class="gallery-triangle-btn">
+            <svg class="" width="24" height="24" aria-label="prev">
+              <use href="/lucky-quest-game-hub/assets/sprite-66836b32.svg#icon-pag-btn-prev"></use>
+            </svg>
+          </button>
         </div>
 
         <div class="swiper-pagination">
@@ -230,9 +234,11 @@
           </svg>
         </div>
         <div class="triangle triangle-next">
-          <svg class="" width="24" height="24" aria-label="next">
-            <use href="/lucky-quest-game-hub/assets/sprite-66836b32.svg#icon-pag-btn-next-active"></use>
-          </svg>
+          <button class="gallery-triangle-btn">
+            <svg class="" width="24" height="24" aria-label="next">
+              <use href="/lucky-quest-game-hub/assets/sprite-66836b32.svg#icon-pag-btn-next-active"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </div>
