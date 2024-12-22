@@ -8,6 +8,7 @@
 }
 
 .privacy-main-title {
+  margin-top: 82px;
   margin-bottom: 24px;
   font-family: 'Boogaloo', sans-serif;
   font-weight: 400;
@@ -26,6 +27,7 @@
   color: #ffc800;
   text-shadow: 1px 1px 0 #0048bc, -1px -1px 0 #0048bc, 1px -1px 0 #0048bc,
     -1px 1px 0 #0048bc;
+  text-align: start;
 }
 
 .privacy-list {
@@ -86,6 +88,16 @@
   padding: 8px 165px 8px 16px;
   width: 320px;
   height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.privacy-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999999999;
+  width: 100%;
   background: linear-gradient(
     180deg,
     #70aeff 3.26%,
@@ -99,7 +111,23 @@
   padding: 10px;
 }
 
-/* .mobile-menu-open-btn {
+.privacy-text-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.privacy-list a {
+  color: #0048bc;
+}
+
+.privacy-list-item a:hover {
+  text-decoration: underline;
+}
+
+.mobile-menu-open-btn {
   border: none;
   background-color: transparent;
   padding: 0;
@@ -108,7 +136,7 @@
   color: #fff;
   display: none;
 }
-.mobile-menu-open-btn-icon {
+/* .mobile-menu-open-btn-icon {
   fill: #fff;
   color: #fff;
 }
@@ -137,7 +165,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 .mobile-menu-wraper.is-open {
   transform: translateX(0%);
@@ -223,7 +251,7 @@
     height: 70px;
   }
 
-  .mobile-menu-open-btn {
-    display: none; /* Бургер-меню сховано на великих екранах */
-  }
+  /* .mobile-menu-open-btn {
+    display: none;
+  } */
 }

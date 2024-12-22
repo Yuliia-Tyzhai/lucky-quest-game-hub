@@ -1,6 +1,12 @@
 .about-us-container {
   position: relative;
   padding: 48px 16px 62px 16px;
+  width: 320px;
+  height: 504px;
+  margin: 0 auto;
+}
+
+.about-us {
   background: linear-gradient(
     180deg,
     #70aeff 3.26%,
@@ -8,6 +14,7 @@
     #0048bc 91.5%,
     #016bec 100%
   );
+  width: 100%;
 }
 
 .about-us-img-one {
@@ -63,6 +70,7 @@
   }
 
   .about-us-container {
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: flex-start;

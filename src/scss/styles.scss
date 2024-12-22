@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f9f5ec;
 }
 h2 {
   font-family: 'Boogaloo', sans-serif;
@@ -45,9 +46,9 @@ h1 {
   font-family: 'Boogaloo', sans-serif;
   font-size: 90px;
   letter-spacing: 0%;
-  line-height: 112px;
+  // line-height: 112px;
   font-weight: 400;
-  text-align: center;
+  // text-align: center;
   color: $_header_accent_color;
   text-shadow: 1px 1px 0 #0048bc, -1px -1px 0 #0048bc, 1px -1px 0 #0048bc,
     -1px 1px 0 #0048bc;

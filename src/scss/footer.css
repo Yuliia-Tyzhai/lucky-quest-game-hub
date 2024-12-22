@@ -1,5 +1,8 @@
 .footer-container {
   padding: 16px;
+}
+
+.footer {
   background: linear-gradient(
     180deg,
     #70aeff 3.26%,
@@ -7,6 +10,7 @@
     #0048bc 91.5%,
     #016bec 100%
   );
+  width: 100%;
 }
 
 .footer-terms-list {

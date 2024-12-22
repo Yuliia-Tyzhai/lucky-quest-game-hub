@@ -8,6 +8,7 @@
 .reviews-swiper-slide {
   max-width: 260px;
   height: 274px;
+  margin-right: 16px;
 }
 
 .reviews-title {
@@ -75,7 +76,6 @@
   .reviews-swiper-slide {
     max-width: 360px;
     height: 286px;
-    margin: 0;
   }
 
   .reviews-swiper-wrapper {
@@ -137,6 +137,17 @@
     max-height: 44px;
     margin-top: 54px;
     margin-left: 516px;
+  }
+
+  .reviews-next-btn,
+  .reviews-prev-btn {
+    fill: #016bec;
+  }
+
+  .reviews-next-btn:active,
+  .reviews-prev-btn:active {
+    box-shadow: 0 0 0px 0 #5294ff, 0 0 1px 0 #5294ff, 0 0 3px 0 #5294ff,
+      0 0 6px 0 #5294ff, 0 0 10px 0 #5294ff, 0 0 18px 0 #5294ff;
   }
 
   .pagination-dots-container {

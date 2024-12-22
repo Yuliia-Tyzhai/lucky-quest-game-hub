@@ -8,6 +8,7 @@
 }
 
 .terms-main-title {
+  margin-top: 48px;
   margin-bottom: 24px;
   font-family: 'Boogaloo', sans-serif;
   font-weight: 400;
@@ -15,6 +16,7 @@
   color: #ffc800;
   text-shadow: 1px 1px 0 #0048bc, -1px -1px 0 #0048bc, 1px -1px 0 #0048bc,
     -1px 1px 0 #0048bc;
+  line-height: 1.24;
 }
 
 .terms-title {
@@ -22,10 +24,10 @@
   font-family: 'Boogaloo', sans-serif;
   font-weight: 400;
   font-size: 28px;
-  line-height: 1.41667;
   color: #ffc800;
   text-shadow: 1px 1px 0 #0048bc, -1px -1px 0 #0048bc, 1px -1px 0 #0048bc,
     -1px 1px 0 #0048bc;
+  text-align: start;
 }
 
 .terms-list {
@@ -37,7 +39,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2f2f2f;
+  color: #0048bc;
+}
+
+.terms-list-item:hover {
+  text-decoration: underline;
 }
 
 .terms-text {
@@ -47,6 +53,14 @@
   line-height: 1.5;
   color: #2f2f2f;
   margin-bottom: 8px;
+}
+
+.terms-text-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
 }
 
 @media screen and (min-width: 1200px) {

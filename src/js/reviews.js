@@ -8,16 +8,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const swiper = new Swiper(swiperEl, {
       slidesPerView: 1,
       loop: true,
-      spaceBetween: 16, // Default space between for mobile
+      spaceBetween: 16,
 
       breakpoints: {
         320: {
-          slidesPerView: 1, // Один слайд на мобільних
-          spaceBetween: 16, // Відстань між слайдами на мобільних
+          slidesPerView: 1.1,
+          spaceBetween: 16,
         },
         1200: {
-          slidesPerView: 3, // Три слайди на десктопі
-          spaceBetween: 24, // Відстань між слайдами на десктопі
+          slidesPerView: 3.1,
+          spaceBetween: 24,
         },
       },
 
@@ -44,15 +44,13 @@ document.addEventListener('DOMContentLoaded', function () {
         prevEl: '.swiper-button-prev',
       },
 
-      // Додаткові налаштування
-      noSwipingClass: 'no-swiping', // Для виключення свайпу
+      noSwipingClass: 'no-swiping',
       touchMoveStopPropagation: true,
     });
 
-    // Додавання стилів
     const style = document.createElement('style');
     style.innerHTML = `
-      /* Стилі для пагінації */
+      
       .reviews-swiper-pagination {
         display: flex;
         justify-content: center;
@@ -70,12 +68,12 @@ document.addEventListener('DOMContentLoaded', function () {
         opacity: 1;
       }
 
-      /* Стилі для кнопок навігації */
+      
       .swiper-button-next,
       .swiper-button-prev {
         position: absolute;
         top: 50%;
-        transform: translateY(-50%); /* Центрування по вертикалі */
+        transform: translateY(-50%);
         background: transparent;
         border: none;
         cursor: pointer;
@@ -89,7 +87,6 @@ document.addEventListener('DOMContentLoaded', function () {
         left: 10px;
       }
 
-      /* Розміри стрілок навігації */
       .swiper-button-next svg,
       .swiper-button-prev svg {
         width: 24px; /* Виправлено розмір */
@@ -97,19 +94,18 @@ document.addEventListener('DOMContentLoaded', function () {
         fill: black;
       }
 
-      /* Загальні стилі для контейнера слайдера */
       .reviews-swiper-container {
         position: relative;
       }
 
-      /* Приховуємо дефолтні пагінацію і стрілки на всіх пристроях */
+      
       .swiper-button-next,
       .swiper-button-prev,
       .swiper-pagination {
         display: none !important;
       }
 
-      /* Показуємо кастомні пагінацію і стрілки на десктопах (після 1200px) */
+      
       @media (min-width: 1200px) {
         .reviews-swiper-pagination,
         .reviews-button-next,
@@ -119,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
 
-      /* Приховуємо кастомні пагінацію і стрілки на мобільних пристроях */
+      
       @media (max-width: 1199px) {
         .reviews-swiper-pagination,
         .swiper-button-next,
