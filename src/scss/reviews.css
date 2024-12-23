@@ -9,8 +9,8 @@
   background: #f8ecd2;
   /* border: 2px solid #fe8947; */
   border-radius: 30px;
-  max-width: 260px;
-  min-height: 274px;
+  /* max-width: 260px;
+  min-height: 274px; */
   margin-right: 16px;
 }
 
@@ -77,8 +77,8 @@
     /* border: 2px solid #fe8947; */
     border-radius: 30px;
     background: #f8ecd2;
-    max-width: 360px;
-    height: 286px;
+    /* max-width: 360px;
+    height: 286px; */
   }
 
   .reviews-swiper-wrapper {
