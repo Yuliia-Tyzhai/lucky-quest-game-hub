@@ -77,6 +77,8 @@
 .reviews-swiper-wrapper {
   /* margin-left: 16px; */
   overflow: visible;
+  display: flex; /* Додано для вирівнювання */
+  justify-content: center; /* Центрування слайдів */
 }
 
 @media (min-width: 1200px) {
