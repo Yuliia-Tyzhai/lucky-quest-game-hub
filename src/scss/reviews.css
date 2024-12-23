@@ -1,11 +1,14 @@
 .reviews-card-container {
+  padding: 85px 17px 61px 16px;
+  background: #f8ecd2;
   border: 2px solid #fe8947;
   border-radius: 30px;
-  background: #f8ecd2;
-  padding: 85px 17px 61px 16px;
 }
 
 .reviews-swiper-slide {
+  background: #f8ecd2;
+  /* border: 2px solid #fe8947; */
+  border-radius: 30px;
   /* max-width: 260px; */
   /* height: 274px; */
   margin-right: 16px;
@@ -67,15 +70,15 @@
   }
 
   .reviews-card-container {
-    border: 2px solid #fe8947;
-    border-radius: 30px;
-    background: #f8ecd2;
     padding: 110px 24px 24px 24px;
   }
 
   .reviews-swiper-slide {
-    max-width: 360px;
-    height: 286px;
+    /* border: 2px solid #fe8947; */
+    border-radius: 30px;
+    background: #f8ecd2;
+    /* max-width: 360px;
+    height: 286px; */
   }
 
   .reviews-swiper-wrapper {
@@ -83,8 +86,8 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    width: 1896px;
-    height: 286px;
+    /* width: 1896px;
+    height: 286px; */
   }
 
   .reviews-title {
