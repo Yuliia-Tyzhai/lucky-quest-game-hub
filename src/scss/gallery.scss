@@ -92,9 +92,6 @@
   object-fit: cover;
   border-radius: 40px;
 }
-.swiper-slide {
-  width: 80%;
-}
 
 .swiper-slide:nth-child(2n) {
   width: 60%;
@@ -111,11 +108,6 @@
   display: flex;
   justify-content: center;
   gap: 5px;
-}
-.swiper-pagination svg {
-  width: 14px;
-  height: 14px;
-  fill: #70aeff;
 }
 .swiper-pagination {
   display: flex;

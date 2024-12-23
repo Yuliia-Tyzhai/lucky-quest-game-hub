@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
       el: '.swiper-pagination',
       clickable: true,
       renderBullet: function (index, className) {
-        return '<span class="' + className + '">' + '</span>';
+        return '<span class="' + className + '"></span>';
       },
       bulletClass: 'swiper-pagination-bullet',
       bulletActiveClass: 'swiper-pagination-bullet-active',
