@@ -10,7 +10,7 @@
   /* border: 2px solid #fe8947; */
   border-radius: 30px;
   max-width: 260px;
-  height: 274px;
+  min-height: 274px;
   margin-right: 16px;
 }
 
