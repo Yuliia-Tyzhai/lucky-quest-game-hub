@@ -42,15 +42,26 @@
 .gallery-triangle-btn {
   border: none;
   background-color: transparent;
+  padding: 10px;
+  position: relative;
 }
-.gallery-btn-slider-icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+.gallery-triangle-btn::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
 }
+.gallery-triangle-btn::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+}
+
 .gallery-triangle-btn:hover,
 .gallery-triangle-btn:focus {
   fill: #016bec;
@@ -74,8 +85,6 @@
 }
 .swiper {
   width: 1200px;
-  // height: 600px;
-  // gap: 24px;
 }
 .swiper-slide {
   display: flex;
@@ -83,7 +92,6 @@
   margin-left: 0;
   justify-content: center;
   align-items: center;
-  background: #fff;
 }
 .swiper-slide img {
   display: block;
@@ -91,9 +99,6 @@
   height: 416px;
   object-fit: cover;
   border-radius: 40px;
-}
-.swiper-slide {
-  width: 80%;
 }
 
 .swiper-slide:nth-child(2n) {
@@ -103,21 +108,14 @@
 .swiper-slide:nth-child(3n) {
   width: 40%;
 }
-.icon {
-  width: 14px;
-  height: 14px;
-}
-.swiper-pagination {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-}
+
 .swiper-pagination svg {
   width: 14px;
   height: 14px;
   fill: #70aeff;
 }
 .swiper-pagination {
+  height: 16px;
   display: flex;
   justify-content: center;
   gap: 5px;
