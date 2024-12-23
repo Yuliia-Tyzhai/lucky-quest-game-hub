@@ -19,6 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
           spaceBetween: 24,
         },
       },
+      mousewheel: true,
+      keyboard: {
+        enabled: true,
+      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,

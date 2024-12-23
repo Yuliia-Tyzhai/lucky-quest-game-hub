@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       320: {
         spaceBetween: 16,
       },
-      1220: {
+      1200: {
         spaceBetween: 24,
       },
     },
