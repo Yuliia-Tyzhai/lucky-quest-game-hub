@@ -92,6 +92,10 @@
     gap: 120px;
     margin-top: 34px;
   }
+  .triangle-next-rew {
+    position: relative;
+    top: 1px;
+  }
   .reviews-card-container {
     padding: 110px 24px 24px 24px;
     max-width: 312px;
