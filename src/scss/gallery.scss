@@ -22,7 +22,6 @@
   color: $_header_accent_color;
   margin-bottom: 30px;
 }
-
 .swiper-pagination-box {
   display: flex;
   justify-content: center;
@@ -45,7 +44,6 @@
   background-color: transparent;
   padding: 10px;
   position: relative;
-  top: 1.5px;
 }
 .gallery-triangle-btn::before {
   content: '';
@@ -82,17 +80,11 @@
   filter: drop-shadow(-1px -2px 6px #016bec);
 }
 .swiper-container {
-  width: 100%;
+  width: 87.5%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .swiper {
   width: 1200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .swiper-slide {
   display: flex;
