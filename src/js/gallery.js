@@ -5,15 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const swiper = new Swiper('.swiper-container', {
     direction: 'horizontal',
     loop: true,
-    slidesPerView: 1.3,
-    breakpoints: {
-      320: {
-        spaceBetween: 16,
-      },
-      1200: {
-        spaceBetween: 24,
-      },
-    },
+    slidesPerView: 1,
     centeredSlides: true,
     mousewheel: true,
     keyboard: {
