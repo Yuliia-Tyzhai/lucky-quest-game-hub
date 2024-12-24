@@ -193,4 +193,10 @@
   .swiper-pagination-box-rew {
     display: flex;
   }
+
+  .swiper-button-next,
+  .swiper-button-prev,
+  .swiper-pagination-bullet {
+    display: none;
+  }
 }
