@@ -4,7 +4,6 @@
   margin-bottom: 88px;
 }
 .gallery-box {
-  // width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,8 +43,15 @@
   border: none;
   background-color: transparent;
   padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   top: 1.5px;
+  cursor: pointer;
+}
+.gallery-triangle-btn .svg {
+  pointer-events: none;
 }
 .gallery-triangle-btn::before {
   content: '';
@@ -124,10 +130,19 @@
   fill: #70aeff;
 }
 .swiper-pagination {
-  height: 20px;
+  position: absolute;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5px;
+  z-index: 1;
+  width: 164px;
+  left: auto;
+  height: 24px;
+}
+.swiper-pagination {
+  width: auto !important;
+  left: auto !important;
 }
 .swiper-pagination-bullet {
   width: 14px;
